@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { GetProducts } from "../components/api"
 import { userContext } from "../App"
-import { Outlet } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 
 export const Home = () => {
 
@@ -9,6 +9,7 @@ export const Home = () => {
 
         <>
             <h1>Burası Anasayfa</h1>
+            <Link to="/product"> Ürünleri görmek istiyorsan tıkla</Link>
         </>
     )
 }
