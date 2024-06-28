@@ -44,9 +44,16 @@ export const ProductDetail = () => {
                     <div className="product-lower">
 
                         <div className="stock">
-                            <button>-</button>
+                            <button className="stockIn">-</button>
                             <h4>0</h4>
                             <button>+</button>
+
+                        </div >
+
+                        <div className="addToCart">
+
+                            <img src="../white-shape.svg" alt="" />
+                            <span  >  Add to cart</span>
 
                         </div>
 

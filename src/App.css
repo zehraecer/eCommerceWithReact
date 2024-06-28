@@ -22,6 +22,12 @@ p {
   margin: 0%;
 }
 
+button {
+  padding-inline: 0px;
+  padding-block: 0px;
+  border-width: 0px;
+}
+
 .header-left {
   display: flex;
   gap: 56px;
@@ -87,6 +93,7 @@ p {
 }
 
 .product-right {
+  margin-top: 62px;
 
   h4 {
     font-family: Kumbh Sans;
@@ -104,6 +111,7 @@ p {
     font-size: 44px;
     font-weight: 700;
     line-height: 48px;
+    margin-top: 27px;
   }
 
   p {
@@ -113,12 +121,18 @@ p {
     line-height: 26px;
     text-align: left;
     color: #69707D;
+    margin-top: 32px;
+
   }
 }
 
 .price {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: left;
+  margin-top: 24px;
+  gap: 16px;
+
 
   h5 {
     font-family: Kumbh Sans;
@@ -135,6 +149,7 @@ p {
     line-height: 26px;
     text-align: left;
     color: #B6BCC8;
+    margin-top: 10px;
   }
 
 
@@ -156,4 +171,64 @@ p {
 
 .stock {
   display: flex;
+  background-color: #F6F8FD;
+  border-radius: 15px;
+
+
+
+  button {
+    padding-inline: 20px;
+    margin: 0%;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FF7E1B;
+    background-color: #F6F8FD;
+    border-radius: 10px 10px 10px 10px;
+
+  }
+
+  h4 {
+    padding: 26px 16px;
+    font-size: 21px;
+    color: black;
+
+  }
+}
+
+
+.stockIn {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.product-lower {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.addToCart {
+
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 19px 76px;
+  background-color: #FF7E1B;
+  border-radius: 10px;
+  color: #fff;
+
+  img {
+    width: 17px;
+    height: 16px;
+  }
+
+  span {
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.84px;
+    text-align: left;
+
+  }
+
 }
